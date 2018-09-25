@@ -1,0 +1,31 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+title: Overview
+intro: Introduction to destination. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
+
+<div class="container container--xl text--center text--lg space--xxxxl">
+  <p>{{page.intro}}</p>
+</div>
+
+<div class="container">
+  <div class="row row--xxl-6-6">
+    {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
+    {% for page in content-pages %}
+      <div class="col">
+        <div class="bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/img.jpg');">
+          <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+          <div class="bg-img__content">
+            <div class="title title--lg">{{page.title}}</div>
+          </div>
+          <div class="bg-img__bg-overlay"></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="space--xxxxl"></div>
