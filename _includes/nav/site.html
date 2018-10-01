@@ -8,7 +8,7 @@
   <div class="site-nav__scroll-wrap">
     <div class="site-nav__wrap">
 
-        {% for nav-page in nav-pages %}<span class="site-nav__item">
+        {% for nav-page in nav-pages %}<span class="site-nav__item{% if nav-page.id == page.id or nav-page.id == page.group-parent %} is-current{% endif %}">
 
           <a class="site-nav__link{% if nav-page.id == page.id or nav-page.id == page.group-parent %} is-current{% endif %}" href="{{site.baseurl}}{{nav-page.url}}">
             {% if nav-page.nav-title %}

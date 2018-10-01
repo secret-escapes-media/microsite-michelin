@@ -1,18 +1,18 @@
 # Site settings
-title: Destination Topic
+title: Michelin Road Trips
 client:
-  name: Client Name
-  link: "#client-name"
+  name: Michelin
+  link: https://www.michelin.co.uk/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Wild coastlines, epic mountain landscapes and beguiling countryside await in our road-trip guides, ready to test the limit of your motoring skills. Twists, turns, hairpins and unmissable panorama awaits, interspersed with beguiling stop-offs and unmissable moments. Choose your next adventure here, with luxurious hotel offers and our favourite Michelin restaurants ready to fill your itinerary. Discover how the Michelin High Performance range of tyres can improve your trip before you embark on an unforgettable drive...
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/_templates/destination-topic" # the subpath of your site, e.g. /blog/
-img:     "/_templates/destination-topic/_assets/img"
-css:     "/_templates/destination-topic/_assets/css"
-js:      "/_templates/destination-topic/_assets/js"
+baseurl: "/michelin-road-trips" # the subpath of your site, e.g. /blog/
+img:     "/michelin-road-trips/_assets/img"
+css:     "/michelin-road-trips/_assets/css"
+js:      "/michelin-road-trips/_assets/js"
 
 
 # Build settings

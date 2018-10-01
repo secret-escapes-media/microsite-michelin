@@ -3,7 +3,7 @@
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $orange-dark;
+$nav-color:          $m-white;
 
 
 // global site nav height
@@ -18,7 +18,7 @@ $nav-color:          $orange-dark;
 
 .site-nav {
   position: relative;
-  background-color: rgba($nav-color,.8);
+  background-color: rgba($nav-color,.85);
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -74,10 +74,32 @@ $nav-color:          $orange-dark;
     }
   }
   &__item {
+    position: relative;
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($white,.15);
-    &:last-child { border-right: 0; }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 2px;
+      background-color: $m-blue;
+      opacity: 0;
+      transform: scaleY(0);
+      transform-origin: bottom center;
+      @include transition;
+    }
+    &.is-current:after {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+    &:hover:after {
+      height: 3px;
+      opacity: 1;
+      transform: scaleY(1);
+    }
   }
   &__link {
     display: flex;
@@ -91,11 +113,10 @@ $nav-color:          $orange-dark;
     font-size: 11px;
     letter-spacing: .2em;
     text-transform: uppercase;
-    color: $white;
+    color: $m-blue;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    .no-touch &:hover { background-color: rgba($nav-color,.66); }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

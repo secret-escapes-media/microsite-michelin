@@ -39,7 +39,7 @@ gulp.task('serve', ['build-jekyll'], function() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/_templates/destination-topic': '_site/'
+        '/michelin-road-trips': '_site/'
       }
     }
   });
@@ -114,12 +114,18 @@ gulp.task('build-main-js', function(cb) {
     // custom js - with on doc ready wrapper
     './_assets/js/_components/on-ready/start.js',
 
+    // map marker data
+    './_assets/js/_components/marker-data/road.js',
+    './_assets/js/_components/marker-data/hotels.js',
+    './_assets/js/_components/marker-data/resturants.js',
+
     // components
     './_assets/js/_components/standard.js',
     './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
     './_assets/js/_components/modal-nav.js',
     // './_assets/js/_components/sticky-nav.js',
+    './_assets/js/_components/map.js',
 
     // custom js for project
     './_assets/js/main.js',

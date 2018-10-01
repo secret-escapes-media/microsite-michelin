@@ -1,1 +1,16 @@
 // general styles for the project that wouldn't be a reuseable component
+
+.border {
+  border-bottom: 4px solid $m-blue;
+}
+
+.caption {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  font-weight: 400;
+  font-size: $s-1;
+  color: $grey-dark;
+  padding: $s-2;
+  border-bottom: 1px solid $grey-lighter;
+}

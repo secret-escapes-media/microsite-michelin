@@ -1,0 +1,78 @@
+---
+layout: default
+map: true
+---
+
+<div class="harvey">
+  <div class="harvey__text">
+    <div class="vpad--xl">
+      <h3 class="title title--color title--md">From {{page.roadtrip.start}} to {{page.roadtrip.end}}</h3>
+      <p class="text--lg">{{page.intro}}</p>
+      <p><strong>Time:</strong> {{page.roadtrip.time}} | <strong>Distance:</strong> {{page.roadtrip.distance}} miles</p>
+    </div>
+  </div>
+  <div class="harvey__img" style="background-image: url('{{site.img}}/map.jpg');">
+    <a class="js-open-map harvey__link"></a>
+    <div class="harvey__btn-wrap">
+      <a class="btn btn--blue">Explore the Map</a>
+    </div>
+  </div>
+</div>
+
+<div class="bg--light vpad--xxl">
+  <div class="container">
+    <h2 class="title title--color title--xl text--center">The Journey</h2>
+    <div class="space--md"></div>
+    {{content}}
+  </div>
+</div>
+
+<div class="vpad--xxl">
+  <div class="container">
+    <h2 class="title title--color title--xl text--center">Michelin Eats</h2>
+    <div class="space--lg"></div>
+    <div class="row row--4-4-4 row--gutters-lg">
+      {% for restaurant in page.restaurants %}
+      <div class="col">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');">
+          <a href="{{restaurant.link}}" class="bg-img__link"></a>
+        </div>
+        <div class="space--sm"></div>
+        <h3 class="title title--xs">{{restaurant.title}}</h3>
+        <div class="space--xs"></div>
+        <h4 class="title">
+          {% if restaurant.rating == "one-star" %}
+            One MICHELIN Star
+          {% elsif restaurant.rating == "plate" %}
+            The MICHELIN Plate
+          {% endif %}
+        </h4>
+
+        <p>{{restaurant.description}}</p>
+        <div class="space--sm"></div>
+        <a href="{{restaurant.link}}" class="btn btn--outline btn--outline-blue btn--xs">Find Out More</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="bg--light vpad--xxl">
+  <div class="container">
+    <div class="text--center">
+      <h2 class="title title--color title--xl">Stay there in style</h2>
+      <p class="space--md text--xxl">Discover luxurious digs in and around this road trip...</p>
+    </div>
+    <div class="row row--xl-6-6 row--gutters-lg vpad--xl">
+      {% assign offers-in-category = site.data.offers | where: 'category', page.id %}
+      {% for offer in offers-in-category %}
+        <div class="col">
+          {% include offer/offer.html %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="text--center">
+      <a href="{{site.baseurl}}/offers" class="btn btn--blue">See All Offers</a>
+    </div>
+  </div>
+</div>

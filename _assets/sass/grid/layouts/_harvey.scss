@@ -24,19 +24,20 @@
     margin-right: auto;
     padding-top: $s4;
     padding-bottom: $s8;
+    @include page-padding;
     @include bp($bp) {
       padding-top: $s12;
-      padding-left: $s4;
-      padding-right: $s4;
+      // padding-left: $s4;
+      // padding-right: $s4;
       padding-bottom: $s12;
     }
   }
   &__img {
     position: relative;
     align-self: stretch;
-    padding-top: 100%;
+    padding-top: 66.66%;
     @include background-attributes;
-    @include bp($md) { padding-top: 66.66%; }
+    @include bp($md) { padding-top: 40%; }
     @include bp($bp) { padding-top: 0; }
   }
   &__link {
@@ -45,6 +46,18 @@
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: $z-content-upper;
+  }
+  &__btn-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 }

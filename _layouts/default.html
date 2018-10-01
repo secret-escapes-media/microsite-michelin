@@ -15,11 +15,15 @@
       {{ content }}
     </div>
 
-    {% unless page.id == 'offers' or page.id == 'competition' %}
-      {% include page/promo-comp.html %}
+    {% unless page.id == 'offers' or page.id == 'michelin' %}
+      {% include page/promo-campaign.html %}
     {% endunless %}
 
     {% include page/footer.html %}
+
+    {% if layout.map %}
+      {% include modal/map.html %}
+    {% endif %}
 
     {% include modal/modal.html %}
 

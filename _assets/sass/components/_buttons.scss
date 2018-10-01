@@ -12,10 +12,22 @@
   border-radius: 3px;
   cursor: pointer;
   @include transition;
+  &--xs { padding: $s0 $s2; font-size: $s-2; }
   &--sm { padding: $s1 $s4; font-size: $s-2; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
+  }
+  &--blue { background-color: $m-blue;
+    &:hover { background-color: darken($m-blue,15); }
+  }
+  &--yellow {
+    color: $grey-darkest;
+    background-color: $m-yellow;
+    &:hover {
+      color: $black;
+      background-color: darken($m-yellow,5);
+    }
   }
   &--outline {
     color: inherit;
@@ -38,6 +50,14 @@
     &:hover {
       background-color: $orange;
       &:before { border-color: $orange; }
+    }
+  }
+  &--outline-blue {
+    &:before { border-color: $m-blue; }
+    &:hover {
+      color: white;
+      background-color: $m-blue;
+      &:before { border-color: $m-blue; }
     }
   }
 }

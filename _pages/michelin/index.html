@@ -1,0 +1,60 @@
+---
+layout: default
+id: michelin
+title: Michelin
+nav: true
+nav-order: 5
+content-pages: true
+intro: The Michelin Pilot Sport Range is the class-leading tyre for high performance. Whether you need a set for summer, winter or all seasons, find the right tyre for your next adventure in the Pilot Sport Range. Find out how Michelin tyres can improve your drive below.
+
+topics:
+
+  - id: check
+    title: The check
+    description: Tread depth, tyre pressures and overall condition of the tyres are critical for performance and safety of your motoring adventures. Check your tyre pressures monthly, with specific PSIs for your car available online. The wrong pressures will increase wear, diminish road handling, increase risk of aquaplaning, diminish braking and increase fuel consumption.
+    cta:  Find Out More
+    link: https://www.michelin.co.uk/tyres/learn-share/care-guide
+
+  - id: solution
+    title: The solution
+    description: Get more out of your tyres with the Michelin Pilot Sport Range. Born from endurance racing, these tyres make for the most exhilarating of rides. Offering superb dry handling, these tyres were developed in conjunction with Porsche, BMW M and Ferrari, specially engineered for super sport cars and ultra high-performance tuning.
+    cta: Shop Now
+    link: https://www.michelin.co.uk/high-performance-range
+
+  - id: heritage
+    title: The heritage
+    description: Michelin is built on over a century of motoring heritage. From the early days of the dawn of the motor vehicle right through to now, Michelin has been inspiring motoring adventure with the finest tyres, detailed maps of compelling destinations, and the prestigious Michelin Guide. The company has sparked countless getaways, promoting the excitement and romance of travel for generations.
+    cta: Find Out More
+    link: https://www.michelin.co.uk/about/history
+---
+
+<div class="vpad--xxl">
+  <div class="container">
+    <div class="width width--lg text--center">
+      <div class="title title--color title--sm">Discover what Michelin can add to your road trip adventure.</div>
+      <div class="space--xs"></div>
+      <p>{{page.intro}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  {% for topic in page.topics %}
+    <div class="bob{% cycle '', ' bob--swap' %}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');">
+          <a href="{{topic.link}}" class="bg-img__link"></a>
+        </div>
+      </div>
+      <div class="bob__text">
+        <h3 class="title title--color title--lg">{{topic.title}}</h3>
+        <p>{{topic.description}}</p>
+        <div class="space--sm"></div>
+        <a href="{{topic.link}}" class="btn btn--yellow">{{topic.cta}}</a>
+      </div>
+    </div>
+    {% unless forloop.last %}<div class="space--xxxl"></div>{% endunless %}
+  {% endfor %}
+</div>
+
+<div class="space--xxxxl"></div>
