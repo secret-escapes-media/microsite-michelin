@@ -24,5 +24,10 @@
       {% endif %}
     {% endfor %}
 
+    <!-- load in all of the modals required for the map -->
+    {% if layout.map %}
+      {% include modal/map-modals.html %}
+    {% endif %}
+
   </div>
 </div>

@@ -11,8 +11,8 @@ map: true
       <p><strong>Time:</strong> {{page.roadtrip.time}} | <strong>Distance:</strong> {{page.roadtrip.distance}} miles</p>
     </div>
   </div>
-  <div class="harvey__img" style="background-image: url('{{site.img}}/map.jpg');">
-    <a class="js-open-map harvey__link"></a>
+  <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/map.png');">
+    <a class="js-open-map harvey__link" data-map-data="{{page.id}}"></a>
     <div class="harvey__btn-wrap">
       <a class="btn btn--blue">Explore the Map</a>
     </div>
@@ -34,7 +34,7 @@ map: true
     <div class="row row--4-4-4 row--gutters-lg">
       {% for restaurant in page.restaurants %}
       <div class="col">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/restaurants/{{restaurant.id}}.jpg');">
           <a href="{{restaurant.link}}" class="bg-img__link"></a>
         </div>
         <div class="space--sm"></div>
@@ -47,7 +47,6 @@ map: true
             The MICHELIN Plate
           {% endif %}
         </h4>
-
         <p>{{restaurant.description}}</p>
         <div class="space--sm"></div>
         <a href="{{restaurant.link}}" class="btn btn--outline btn--outline-blue btn--xs">Find Out More</a>

@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100%;
-    margin-bottom: ($icon-size * 6);
   }
   &__bg {
     position: fixed;
@@ -91,10 +90,11 @@
       &:hover     { background-color: $black; }
     }
   }
-  &--standard { max-width: $xl; }
-  &--series   { max-width: $xl; }
-  &--image    { max-width: $xxl; }
-  &--youtube  {
+  &--standard   { max-width: $xl; }
+  &--series     { max-width: $xl; }
+  &--image      { max-width: $xxl; }
+  &--restaurant { max-width: $xl; }
+  &--youtube    {
     width: 100%;
     max-width: $xxxl;
     .video__wrap {

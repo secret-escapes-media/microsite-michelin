@@ -1,36 +1,44 @@
-var route = {
+// adds restaurant data to global coast object
+
+coast["restaurants"] = {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "id": "loam"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2458192,
-          51.8653705
+          -9.044891595840454,
+          53.27409319762959
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "id": "aniar"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9685299,
-          51.7170188
+          -9.057025909423828,
+          53.271138660571914
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "id": "wild-honey-inn"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9218320934368738,
-          51.8049026
+          -9.295796155929565,
+          53.02848894840068
         ]
       }
     }

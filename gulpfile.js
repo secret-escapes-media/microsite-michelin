@@ -115,9 +115,21 @@ gulp.task('build-main-js', function(cb) {
     './_assets/js/_components/on-ready/start.js',
 
     // map marker data
-    './_assets/js/_components/marker-data/road.js',
-    './_assets/js/_components/marker-data/hotels.js',
-    './_assets/js/_components/marker-data/resturants.js',
+      // coast
+      './_assets/js/_components/marker-data/coast/object.js',
+      './_assets/js/_components/marker-data/coast/route.js',
+      './_assets/js/_components/marker-data/coast/restaurants.js',
+      './_assets/js/_components/marker-data/coast/hotels.js',
+      // country
+      './_assets/js/_components/marker-data/country/object.js',
+      './_assets/js/_components/marker-data/country/route.js',
+      './_assets/js/_components/marker-data/country/restaurants.js',
+      './_assets/js/_components/marker-data/country/hotels.js',
+      // mountain
+      './_assets/js/_components/marker-data/mountain/object.js',
+      './_assets/js/_components/marker-data/mountain/route.js',
+      './_assets/js/_components/marker-data/mountain/restaurants.js',
+      './_assets/js/_components/marker-data/mountain/hotels.js',
 
     // components
     './_assets/js/_components/standard.js',
@@ -186,7 +198,7 @@ gulp.task('compress-js', function () {
 // compress images files for live
 gulp.task('compress-images', function () {
   return gulp.src('./_site/_assets/img/**/*')
-  .pipe(image())
+  .pipe(image({'svgo': ['--disable', 'removeViewBox']}))
   .pipe(gulp.dest('./_site/_assets/img'));
 })
 

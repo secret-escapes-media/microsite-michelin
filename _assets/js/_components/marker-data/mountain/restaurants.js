@@ -1,36 +1,44 @@
-var resturantMarkers = {
+// adds restaurant data to global mountain object
+
+mountain["restaurants"] = {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "id": "loch-bay"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.6603088378906248,
-          51.7342579209602
+          -6.57095,
+          57.514799
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "id": "albannach"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0056915283203125,
-          51.725326868064954
+          -5.25551,
+          58.153695
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "id": "boath-house"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.143707275390625,
-          51.8544424245821
+          -3.808446,
+          57.5795
         ]
       }
     }
