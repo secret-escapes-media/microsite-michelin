@@ -5,33 +5,33 @@ title: Michelin
 nav: true
 nav-order: 5
 content-pages: true
-intro: Michelin offer a range of class-leading tyres. Whether you need a set for summer, winter or all seasons, find the right tyre for your next adventure and guarantee the safety, performance and endurance of your drive. Find out how Michelin tyres can improve your drive below.
+intro: Michelin has been helping and inspiring motorists with their travels for over a century through it’s class-leading tyres and travel guides. Browse below to select the right tyres for your car and find out how to look after them correctly. Don’t miss the online ViaMichelin route planner which will highlight hotel and restaurant recommendations from the prestigious Michelin Guide. Complement your road-trip adventure with some of the world’s finest dining...
 
 topics:
 
   - id: check
-    title: The check
-    description: Tread depth, tyre pressures and overall condition of the tyres are critical for performance and safety of your motoring adventures. Check your tyre pressures monthly, with specific PSIs for your car available online. The wrong pressures will increase wear, diminish road handling, increase risk of aquaplaning, diminish braking and increase fuel consumption.
+    title: The Check
+    description: Your tyres are the only thing between you and the road so it’s important to make sure they are safe and in tip-top condition. Check the tread depths are within the legal limit of 1.6mm and top up the air pressures to the recommended level. Be aware that under-inflated tyres increase wear, diminish road holding and use more fuel. Michelin offers online tyre care tips, or you can always visit a local, reputable tyre dealer who will normally carry out a tyre check free of charge.
     cta:  Find Out More
     link: https://www.michelin.co.uk/tyres/learn-share/care-guide
 
   - id: tyres
-    title: The tyres
-    description: Michelin has a tyre for any situation. If you’re looking for endurance, performance and safety, discover a range of tyres to perfectly match your needs. Use the tyre guide to find the right tyres for your car, with a choice of summer or winter sets to ensure only the best driving no matter the weather.
-    cta: Shop Now
+    title: The Tyre Selector
+    description: Michelin provide a range of class-leading tyres which deliver high mileage, handling performance and fuel efficiency. The online Michelin tyre selector can help you choose the right tyre for your particular car and driving needs; simply enter your vehicle details and tyre size to see the most suitable options. Whether it's the long-lasting MICHELIN Primacy range, the all-season MICHELIN CrossClimate+ range, or the high performance MICHELIN Pilot Sport range, you can pick which range suits your driving needs best.
+    cta: Select Now
     link: https://www.michelin.co.uk/high-performance-range
+
+  - id: guide
+    title: The Michelin Guide
+    description: The Michelin-starred restaurant rating is an iconic, international benchmark for gastronomy. However, not many people realise it was developed as part of a clever motorist handbook; Michelin maps and travel guides were a clever marketing idea introduced in the 1900s to encourage motorists to travel further afield and boost tyres sales.The publications have kept in tune with traveller’s needs and evolved through the digital revolution so they can still be accessed online today. Michelin’s online route planner ‘ViaMichelin’ can help you plan your road trip and will highlight tourist spots and hotel and restaurant recommendations from the Michelin Guide – including unmissable Michelin-starred restaurants.
+    cta: Find Out More
+    link: https://www.viamichelin.co.uk/web/Restaurants/Restaurants-United_Kingdom
 
   - id: heritage
     title: The heritage
-    description: Michelin is built on over a century of motoring heritage. From the early days of the dawn of the motor vehicle right through to now, Michelin has been inspiring motoring adventure with the finest tyres, detailed maps of compelling destinations, and the prestigious Michelin Guide. The company has sparked countless getaways, promoting the excitement and romance of travel for generations.
+    description: Michelin is built on over a century of motoring heritage. From the early days of the dawn of the motor vehicle right through to today, Michelin has been inspiring motoring adventure with class-leading tyres, detailed maps of compelling destinations, and the prestigious Michelin Guide. The company has sparked countless getaways, promoting the excitement and romance of travel for generations.
     cta: Find Out More
     link: https://www.michelin.co.uk/about/history
-
-  - id: guide
-    title: The Guide
-    description: The Michelin Guide was originally created to encourage road trips, kickstarting the romance of motoring adventures. By showcasing great places to eat and rest, the guide grew in popularity and became the go-to for planning your adventure. As the popularity of the red book grew, mystery diners were sent out to create the famous star-rating system, making the guide an international benchmark for fine dining. Now, it is a veritable icon of foodie know-how and superlative adventure.
-    cta: Find Out More
-    link: https://www.viamichelin.co.uk/web/Restaurants/Restaurants-United_Kingdom
 ---
 
 <div class="vpad--xxl">
@@ -48,7 +48,7 @@ topics:
   {% for topic in page.topics %}
     <div class="bob{% cycle '', ' bob--swap' %}">
       <div class="bob__img">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{topic.id}}.jpg');">
           <a href="{{topic.link}}" class="bg-img__link"></a>
         </div>
       </div>

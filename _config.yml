@@ -1,18 +1,18 @@
 # Site settings
-title: Michelin Road Trips
+title: Unmissable Road Trips
 client:
   name: Michelin
   link: https://www.michelin.co.uk/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Wild coastlines, epic mountain landscapes and beguiling countryside await in our road-trip guides, ready to test the limit of your motoring skills. Twists, turns, hairpins and unmissable panorama awaits, interspersed with beguiling stop-offs and unmissable moments. Choose your next adventure here, with luxurious hotel offers and our favourite Michelin restaurants ready to fill your itinerary. Discover how Michelin tyres can improve your trip before you embark on an unforgettable drive...
+  Wild coastlines, epic mountain landscapes and beguiling countryside await in our road-trip guides, ready to test your motoring skills. Twists, turns, hairpins and unmissable panorama awaits, interspersed with beguiling stop-offs and unmissable moments. Choose your next adventure here, with luxurious hotel offers and our favourite Michelin restaurants ready to fill your itinerary.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/michelin-road-trips" # the subpath of your site, e.g. /blog/
-img:     "/michelin-road-trips/_assets/img"
-css:     "/michelin-road-trips/_assets/css"
-js:      "/michelin-road-trips/_assets/js"
+baseurl: "/unmissable-road-trips" # the subpath of your site, e.g. /blog/
+img:     "/unmissable-road-trips/_assets/img"
+css:     "/unmissable-road-trips/_assets/css"
+js:      "/unmissable-road-trips/_assets/js"
 
 
 # Build settings
