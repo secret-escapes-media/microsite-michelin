@@ -184,34 +184,6 @@ $(document).keyup(function(event) {
         }
       });
 
-      //////////////////////////////////////////////////////////////////////////
-      ///////////////////////////////////////////////////////////  HOTEL MARKERS
-      //////////////////////////////////////////////////////////////////////////
-
-      // markers
-      map.addLayer({
-        id: 'hotels',
-        type: 'symbol',
-        source: {
-          type: 'geojson',
-          data: mapData.hotels
-        },
-        layout: {
-          "icon-image": "pin-se",
-          "icon-size": .7,
-          'icon-anchor': "bottom",
-          'icon-allow-overlap': true
-        }
-      });
-
-
-
-    // Launch offer card modal when se offer marker is clicked
-    map.on('click', 'hotels', function (e) {
-      var clickedOfferId = e.features[0].properties.id
-      modalOpen(null, clickedOfferId);
-    });
-
     // launch modal when restaurant marker is clicked
     map.on('click', 'restaurants', function (e) {
       var clickedOfferId = e.features[0].properties.id

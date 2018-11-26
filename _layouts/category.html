@@ -55,23 +55,3 @@ map: true
     </div>
   </div>
 </div>
-
-<div class="bg--light vpad--xxl">
-  <div class="container">
-    <div class="text--center">
-      <h2 class="title title--color title--xl">Stay there in style</h2>
-      <p class="space--md text--xxl">Discover luxurious digs in and around this road trip...</p>
-    </div>
-    <div class="row row--xl-6-6 row--gutters-lg vpad--xl">
-      {% assign offers-in-category = site.data.offers | where: 'category', page.id %}
-      {% for offer in offers-in-category %}
-        <div class="col">
-          {% include offer/offer.html %}
-        </div>
-      {% endfor %}
-    </div>
-    <div class="text--center">
-      <a href="{{site.baseurl}}/offers" class="btn btn--blue">See All Offers</a>
-    </div>
-  </div>
-</div>

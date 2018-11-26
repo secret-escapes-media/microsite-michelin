@@ -119,17 +119,14 @@ gulp.task('build-main-js', function(cb) {
       './_assets/js/_components/marker-data/coast/object.js',
       './_assets/js/_components/marker-data/coast/route.js',
       './_assets/js/_components/marker-data/coast/restaurants.js',
-      './_assets/js/_components/marker-data/coast/hotels.js',
       // country
       './_assets/js/_components/marker-data/country/object.js',
       './_assets/js/_components/marker-data/country/route.js',
       './_assets/js/_components/marker-data/country/restaurants.js',
-      './_assets/js/_components/marker-data/country/hotels.js',
       // mountain
       './_assets/js/_components/marker-data/mountain/object.js',
       './_assets/js/_components/marker-data/mountain/route.js',
       './_assets/js/_components/marker-data/mountain/restaurants.js',
-      './_assets/js/_components/marker-data/mountain/hotels.js',
 
     // components
     './_assets/js/_components/standard.js',
