@@ -31,11 +31,11 @@ map: true
   <div class="container">
     <h2 class="title title--color title--xl text--center">Michelin Eats</h2>
     <div class="space--lg"></div>
-    <div class="row row--4-4-4 row--gutters-lg">
+    <div class="row row--lg-6-6 row--xl-4-4-4">
       {% for restaurant in page.restaurants %}
       <div class="col">
         <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/restaurants/{{restaurant.id}}.jpg');">
-          <a href="{{restaurant.link}}" class="bg-img__link"></a>
+          <a id="track-trip-restaurant-img-{{restaurant.id}}" href="{{restaurant.link}}" class="bg-img__link"></a>
         </div>
         <div class="space--sm"></div>
         <h3 class="title title--xs">{{restaurant.title}}</h3>
@@ -49,7 +49,7 @@ map: true
         </h4>
         <p>{{restaurant.description}}</p>
         <div class="space--sm"></div>
-        <a href="{{restaurant.link}}" class="btn btn--outline btn--outline-blue btn--xs">Find Out More</a>
+        <a id="track-trip-restaurant-btn-{{restaurant.id}}" href="{{restaurant.link}}" class="btn btn--outline btn--outline-blue btn--xs">Find Out More</a>
       </div>
       {% endfor %}
     </div>

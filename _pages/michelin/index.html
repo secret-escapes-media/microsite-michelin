@@ -49,14 +49,14 @@ topics:
     <div class="bob{% cycle '', ' bob--swap' %}">
       <div class="bob__img">
         <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{topic.id}}.jpg');">
-          <a href="{{topic.link}}" class="bg-img__link"></a>
+          <a id="track-michelin-img-{{topic.id}}" href="{{topic.link}}" class="bg-img__link"></a>
         </div>
       </div>
       <div class="bob__text">
         <h3 class="title title--color title--lg">{{topic.title}}</h3>
         <p>{{topic.description}}</p>
         <div class="space--sm"></div>
-        <a href="{{topic.link}}" class="btn btn--yellow">{{topic.cta}}</a>
+        <a id="track-michelin-btn-{{topic.id}}" href="{{topic.link}}" class="btn btn--yellow">{{topic.cta}}</a>
       </div>
     </div>
     {% unless forloop.last %}<div class="space--xxxl"></div>{% endunless %}

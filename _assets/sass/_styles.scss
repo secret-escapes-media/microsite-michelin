@@ -19,11 +19,22 @@
   font-family: $font-title-01;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: .5rem;
+  letter-spacing: .33rem;
   line-height: 1.33;
-  font-size: $s1;
   margin-top: $s-2;
   img {
     max-width: 100px;
+    display: block;
+    margin-top: $s1;
+    margin-left: auto;
+    margin-right: auto;
+    @include bp($sm) {
+      display: inline-block;
+      margin-top: 0;
+    }
   }
+  font-size: $s-2;
+  @include bp($md){ font-size: $s-1; }
+  @include bp($lg){ font-size: $s0; letter-spacing: .5rem; }
+  @include bp($xl){ font-size: $s1; }
 }

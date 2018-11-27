@@ -45,13 +45,13 @@
       @include transition;
     }
   }
-  &--outline-orange {
-    &:before { border-color: $orange; }
-    &:hover {
-      background-color: $orange;
-      &:before { border-color: $orange; }
-    }
-  }
+  // &--outline-orange {
+  //   &:before { border-color: $orange; }
+  //   &:hover {
+  //     background-color: $orange;
+  //     &:before { border-color: $orange; }
+  //   }
+  // }
   &--outline-blue {
     &:before { border-color: $m-blue; }
     &:hover {

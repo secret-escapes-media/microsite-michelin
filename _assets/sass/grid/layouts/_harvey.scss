@@ -23,12 +23,10 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: $s4;
-    padding-bottom: $s8;
+    padding-bottom: $s4;
     @include page-padding;
     @include bp($bp) {
       padding-top: $s12;
-      // padding-left: $s4;
-      // padding-right: $s4;
       padding-bottom: $s12;
     }
   }
@@ -37,7 +35,8 @@
     align-self: stretch;
     padding-top: 66.66%;
     @include background-attributes;
-    @include bp($md) { padding-top: 40%; }
+    @include bp($md) { padding-top: 56.25%; }
+    @include bp($lg) { padding-top: 42.8571429%; }
     @include bp($bp) { padding-top: 0; }
   }
   &__link {

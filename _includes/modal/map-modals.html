@@ -1,24 +1,11 @@
-<!-- loop through all of the offers that appear on the map -->
-{% assign map-offers = site.data.offers | where: 'category', {{page.id}} %}
-{% for offer in map-offers %}
-  <div class="modal modal--offer is-closed" data-modal-id="{{offer.id}}">
-    <div class="js-close-modal modal__close"></div>
-    {% include offer/offer.html %}
-    <div class="text--center space--xl">
-      <a href="{{site.baseurl}}/offers" class="btn btn--orange">View all offers</a>
-    </div>
-  </div>
-{% endfor %}
-
 <!-- loop through all of the resturants on page -->
 {% for restaurant in page.restaurants %}
   <div class="modal modal--restaurant is-closed" data-modal-id="{{restaurant.id}}">
     <div class="js-close-modal modal__close"></div>
     <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/restaurants/{{restaurant.id}}.jpg');">
-      <a href="{{restaurant.link}}" class="bg-img__link"></a>
+      <a id="track-map-restaurant-img-{{restaurant.id}}" href="{{restaurant.link}}" class="bg-img__link"></a>
     </div>
     <div class="modal__content">
-      <div class="space--sm"></div>
       <h3 class="title title--md">{{restaurant.title}}</h3>
       <h4 class="title vpad--xxs">
         {% if restaurant.rating == "one-star" %}
@@ -29,7 +16,7 @@
       </h4>
       <p>{{restaurant.description}}</p>
       <div class="space--sm"></div>
-      <a href="{{restaurant.link}}" class="btn btn--outline btn--outline-blue btn--xs">Find Out More</a>
+      <a id="track-map-restaurant-btn-{{restaurant.id}}"  href="{{restaurant.link}}" class="btn btn--outline btn--outline-blue btn--xs">Find Out More</a>
     </div>
   </div>
 {% endfor %}

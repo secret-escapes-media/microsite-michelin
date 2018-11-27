@@ -125,7 +125,7 @@
   }
   @include bp($lg){
     &__content {
-      padding: $s4 $s6;
+      padding: $s4;
     }
   };
 }
