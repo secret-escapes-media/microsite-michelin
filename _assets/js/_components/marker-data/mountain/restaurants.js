@@ -19,26 +19,26 @@ mountain["restaurants"] = {
     {
       "type": "Feature",
       "properties": {
-        "id": "albannach"
+        "id": "the-cellar"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.25551,
-          58.153695
+          -2.696088,
+          56.222084
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "boath-house"
+        "id": "the-peat-inn"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.808446,
-          57.5795
+          -2.884485,
+          56.278299
         ]
       }
     }
