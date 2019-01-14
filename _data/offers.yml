@@ -1,21 +1,43 @@
-- title: Ardoe House Hotel & Spa
-  id: ardoe-house-hotel-and-spa
-  location: Aberdeen, Scotland
-  description: An award-winning Victorian country stay near Aberdeen
-  price: 109
+- title: Knockderry House
+  id: knockderry-house
+  location: Argyll & Bute, Scotland
+  description: An imposing historic country house on the banks of Loch Long
+  price: 79
   price-description: per room per night
-  saved: 48
-  expires: 2018/12/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/79163/3a8d81fe_18a5_4ae3_a942_f130c364f274.jpg
-  link: https://www.secretescapes.com/ardoe-house-hotel-and-spa-aberdeen-scotland/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+  saved: 64
+  expires: 2019/01/15
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/77187/0dc95b0b_f720_43c1_beb2_dfb7e5fc493f.jpg
+  link: https://www.secretescapes.com/knockderry-house-argyll-and-bute-scotland/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
 
-- title: Mottram Hall
-  id: mottram-hall
-  location: Near Alderley Edge, Cheshire
-  description: A charming Cheshire country stay at a luxe spa retreat
-  price: 149
+- title: Hallmark Hotel Derby Mickleover Court
+  id: hallmark-hotel-derby-mickleover-court
+  location: Derby, Derbyshire
+  description: A polished Peak District base just outside Derby
+  price: 90
   price-description: per room per night
-  saved: 33
-  expires: 2018/12/18
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/80044/31db9151_8438_4f15_9e07_342c8c6543e7.jpg
-  link: https://www.secretescapes.com/new-champneys-spa-retreat-in-cheshire-mottram-hall-near-alderley-edge/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+  saved: 52
+  expires: 2019/01/15
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/61018/3eef8636_934f_4864_b6ea_313c70595d65.jpg
+  link: https://www.secretescapes.com/hallmark-hotel-derby-mickleover-court-derby-derbyshire-1/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+
+- title: The Cavendish
+  id: the-cavendish
+  location: Bakewell, Derbyshire
+  description: A luxe country-house hotel in the Peak District
+  price: 226
+  price-description: per room per night
+  saved: 38
+  expires: 2019/01/22
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86165/eff62519_3313_4807_9223_423c1a38ce55.jpg
+  link: https://www.secretescapes.com/the-cavendish-bakewell-derbyshire/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+
+- title: New Bath Hotel & Spa
+  id: new-bath-hotel-and-spa
+  location: Peak District, Derbyshire
+  description: A Peak District stay with an ESPA spa and gourmet dining
+  price: 99
+  price-description: per room per night
+  saved: 54
+  expires: 2019/01/22
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74513/7dd2f412_5bd9_4f11_9de9_1bb7390d255c.jpg
+  link: https://www.secretescapes.com/new-bath-hotel-and-spa-peak-district-derbyshire/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
