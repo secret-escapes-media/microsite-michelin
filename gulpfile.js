@@ -3,7 +3,6 @@ var path         = require('path');
 var del          = require('del');
 var cp           = require('child_process');
 var browserSync  = require('browser-sync');
-var watch        = require('gulp-watch');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var autoprefix   = require('gulp-autoprefixer');
@@ -69,7 +68,7 @@ function buildImages() {
 }
 
 // build for main js file
-function buildJsMain(cb) {
+function buildJsMain() {
   return gulp.src([
 
     //  JS MAIN FILE BUILD
@@ -115,7 +114,7 @@ function buildJsMain(cb) {
 }
 
 // build for other js files - excludes main and files in sub folders
-function buildJs(cb) {
+function buildJs() {
   return gulp.src(['./_assets/js/*.js','!./_assets/js/main.js'])
     .pipe(gulp.dest('./_site/_assets/js/'))
     .pipe(browserSync.reload({
