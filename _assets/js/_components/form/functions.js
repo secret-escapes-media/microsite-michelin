@@ -61,13 +61,13 @@ var formFunctions = (function functionName(form) {
   ///////////////////////////////////////////////////////////// public functions
 
   function submissionInProgress() {
-    form.element.find('button').prop("disabled", true).addClass('is-loading').html('Sending <div class="loading-icon"></div>');
+    form.element.find('button').prop('disabled', true).addClass('is-loading').html('Sending <div class="loading-icon"></div>');
   }
 
   function formInit() {
     // setting up the form
     form.element.trigger('reset'); // reset form values
-    $(form.element).find('button[type="submit"]').prop("disabled", false); // enable submit button - disabled for no js
+    $(form.element).find('button[type="submit"]').prop('disabled', false); // enable submit button - disabled for no js
     formAddStatusMessages(); // add all form status messages
     formSelectedInputClass(); // add function to detect selected radio or checkbox
     formValidation(form).invalidAnswer(); // there is an invalid answer in the form, add the message if selected
@@ -76,7 +76,7 @@ var formFunctions = (function functionName(form) {
   // show status message on form
   function formShowMessage(messageID) {
     form.element.addClass('form-message-is-visible'); // set class on entire form for css
-    form.element.find('input, button, select, textarea').prop("disabled", true); // disable all of the form so people cant enter or tab through it
+    form.element.find('input, button, select, textarea').prop('disabled', true); // disable all of the form so people cant enter or tab through it
     form.element.find('a').removeAttr('href'); // remove all links so user cant keyboard nav through them either
     form.element.find('.message--' + messageID).addClass('is-visible'); // show specific form message
   }
@@ -85,7 +85,7 @@ var formFunctions = (function functionName(form) {
   function addEntryTimestamp() {
     // get the current date and convert into "YYYY-MM-DD HH:MM" format
     var now = new Date();
-    var timestamp = now.getFullYear() + "-" + ("0"+(now.getMonth()+1)).slice(-2) + "-" + ("0" + now.getDate()).slice(-2) + " " + ("0" + now.getHours()).slice(-2) + ":" + ("0" + now.getMinutes()).slice(-2);
+    var timestamp = now.getFullYear() + '-' + ('0'+(now.getMonth()+1)).slice(-2) + '-' + ('0' + now.getDate()).slice(-2) + ' ' + ('0' + now.getHours()).slice(-2) + ':' + ('0' + now.getMinutes()).slice(-2);
     // add timestamp for entry to hidden input
     form.element.find('.js-form-entry-time').val(timestamp);
   }

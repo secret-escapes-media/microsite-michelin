@@ -1,18 +1,19 @@
-var modal          = $('.js-modal'),
-    modalLaunchBtn = $('.js-open-modal'),
-    modalCloseBtn  = $('.js-close-modal');
+var modal          = $('.js-modal');
+var modalLaunchBtn = $('.js-open-modal');
+var modalCloseBtn  = $('.js-close-modal');
 
 // opens modal
 function modalOpen(event, modalId){
 
   // is there a click event?
+  var activeModalId;
   if (event) {
     event.preventDefault();
     // find the modal id from clicked element
-    var activeModalId = $(event.currentTarget).data('open-modal');
+    activeModalId = $(event.currentTarget).data('open-modal');
   } else {
     // find the modal id from passed string
-    var activeModalId = modalId;
+    activeModalId = modalId;
   }
 
   // find the active modal dom element
@@ -25,7 +26,7 @@ function modalOpen(event, modalId){
   if (activeModal.data('youtube-id')) {
     // get youtube id and target div
     var video     = activeModal.find('.js-modal-video'),
-        youtubeId = activeModal.data('youtube-id');
+      youtubeId = activeModal.data('youtube-id');
     // insert the code into the target with the id and autoplay
     video.html('<div class="video__wrap"><iframe class="video" src="https://www.youtube.com/embed/' + youtubeId + '?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>');
   }
@@ -87,7 +88,7 @@ modal.on('click', function(event) {
 
 // closes modal on escape key press
 $(document).keyup(function(event) {
-   if (event.keyCode == 27) {
-     modalClose(event);
-    }
+  if (event.keyCode == 27) {
+    modalClose(event);
+  }
 });

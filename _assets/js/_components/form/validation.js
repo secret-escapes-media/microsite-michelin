@@ -43,9 +43,9 @@ var formValidation = (function functionName(form) {
     } else {
       // create element
       var errorElement = document.createElement('div');
-       // add class
+      // add class
       errorElement.className = inputErrorMessageClass;
-       // add content
+      // add content
       var errorMessage = document.createTextNode(inputErrorMessage);
       $(errorElement).append(errorMessage);
       // add to page
@@ -77,47 +77,47 @@ var formValidation = (function functionName(form) {
     var inputType;
     var inputElement = $input[0].tagName;
     switch (inputElement) {
-      case 'INPUT':
-        inputType = $input.attr('type');
+    case 'INPUT':
+      inputType = $input.attr('type');
       break;
-      case 'SELECT':
-        inputType = 'select';
+    case 'SELECT':
+      inputType = 'select';
       break;
-      case 'TEXTAREA':
-        inputType = 'textarea';
+    case 'TEXTAREA':
+      inputType = 'textarea';
       break;
     }
     // choose method of watching depending on input type
     switch (inputType) {
-      case 'text':
-        $input.on('keyup',function() {
-          formValidateText();
-        });
+    case 'text':
+      $input.on('keyup',function() {
+        formValidateText();
+      });
       break;
-      case 'email':
-        $input.on('keyup',function() {
-          formValidateEmail();
-        });
+    case 'email':
+      $input.on('keyup',function() {
+        formValidateEmail();
+      });
       break;
-      case 'radio':
-        $parent.find('input[type=radio]').on('click',function() {
-          removeInputErrorMessage(this); // any click on a radio button selects, so no need to check if its a valid entry
-        });
+    case 'radio':
+      $parent.find('input[type=radio]').on('click',function() {
+        removeInputErrorMessage(this); // any click on a radio button selects, so no need to check if its a valid entry
+      });
       break;
-      case 'checkbox':
-        $parent.find('input[type=checkbox]').on('click',function() {
-          removeInputErrorMessage(this); // any click on a checkbox selects, so no need to check if its a valid entry
-        });
+    case 'checkbox':
+      $parent.find('input[type=checkbox]').on('click',function() {
+        removeInputErrorMessage(this); // any click on a checkbox selects, so no need to check if its a valid entry
+      });
       break;
-      case 'select':
-        $input.on('change',function() {
-          formValidateSelect();
-        });
+    case 'select':
+      $input.on('change',function() {
+        formValidateSelect();
+      });
       break;
-      case 'textarea':
-        $input.on('keyup',function() {
-          formValidateTextLong();
-        });
+    case 'textarea':
+      $input.on('keyup',function() {
+        formValidateTextLong();
+      });
       break;
 
     }
@@ -140,7 +140,7 @@ var formValidation = (function functionName(form) {
     // check all email inputs in form aren't blank and are a valid email format
     form.element.find('input[type=email]').each(function() {
       var inputValue = $(this).val();
-      var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // this regex formula can test the string against the correct email format of "string@string.string"
+      var emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0.1]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // this regex formula can test the string against the correct email format of "string@string.string"
       if ( inputValue === '' ) { // if empty or whitespace - check if required
         isInputRequired(this, errorMessages.email.blank);
       } else if (!(emailRegex.test(inputValue))) {
@@ -275,7 +275,7 @@ var formValidation = (function functionName(form) {
     form.element.find('.js-form-invalid-answer').each(function() {
       var $input = $(this);
       var $parent = $input.closest('.' + form.inputClass);
-      $parent.on('click', 'input', function(e) {
+      $parent.on('click', 'input', function() {
         var invalidAnswer = $parent.find('.js-form-invalid-answer');
         var isChecked = invalidAnswer[0].checked;
         if (isChecked) {

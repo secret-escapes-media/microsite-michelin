@@ -53,4 +53,4 @@ $('.js-nav-section').waypoint(function(direction) {
     swapClasses(currentSectionId);
   }
 
-})
+});

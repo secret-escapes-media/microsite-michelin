@@ -32,7 +32,7 @@ $('body.no-js').removeClass('no-js');
 ///////////////////////////////////////
 //      detects touch device
 ///////////////////////////////////////
-if ("ontouchstart" in document.documentElement){
+if ('ontouchstart' in document.documentElement){
   $('html').addClass('touch');
 } else {
   $('html').addClass('no-touch');
@@ -44,7 +44,7 @@ if ("ontouchstart" in document.documentElement){
 ///////////////////////////////////////
 
 // mobile nav toggle open & close
-$('.js-toggle-mobile-nav').on('click', function(e) {
+$('.js-toggle-mobile-nav').on('click', function() {
   $('.mobile-nav').toggleClass('is-open').toggleClass('is-closed');
 });
 
@@ -56,10 +56,10 @@ $('.js-toggle-mobile-nav').on('click', function(e) {
 // searches for specific queryString, returns value or true if empty value
 function getQueryStringByName(name, url) {
   if (!url) url = window.location.href;
-  name = name.replace(/[\[\]]/g, "\\$&");
-  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-      results = regex.exec(url);
+  name = name.replace(/[[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    results = regex.exec(url);
   if (!results) return null;
   if (!results[2]) return true;
-  return decodeURIComponent(results[2].replace(/\+/g, " "));
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }

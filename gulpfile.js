@@ -84,18 +84,9 @@ function buildJsMain(cb) {
     './_assets/js/_components/on-ready/start.js',
 
     // map marker data
-      // coast
-      './_assets/js/_components/marker-data/coast/object.js',
-      './_assets/js/_components/marker-data/coast/route.js',
-      './_assets/js/_components/marker-data/coast/restaurants.js',
-      // country
-      './_assets/js/_components/marker-data/country/object.js',
-      './_assets/js/_components/marker-data/country/route.js',
-      './_assets/js/_components/marker-data/country/restaurants.js',
-      // mountain
-      './_assets/js/_components/marker-data/mountain/object.js',
-      './_assets/js/_components/marker-data/mountain/route.js',
-      './_assets/js/_components/marker-data/mountain/restaurants.js',
+    './_assets/js/_components/marker-data/coast.js',
+    './_assets/js/_components/marker-data/country.js',
+    './_assets/js/_components/marker-data/mountain.js',
 
     // components
     './_assets/js/_components/standard.js',

@@ -1,17 +1,17 @@
 $('.js-modal-nav').on('click', function(event) {
   event.preventDefault();
 
-  var navDirection          = $(this).data('nav-direction'),
-      currentModalClass     = '.modal',
-      modalCategory         = 'modal-group',
-      currentModal          = $(currentModalClass + '.is-open'),
-      currentModalCategory  = currentModal.data(modalCategory),
-      nextModal             = currentModal.next(currentModalClass),
-      nextModalCategory     = nextModal.data(modalCategory),
-      previousModal         = currentModal.prev(currentModalClass),
-      previousModalCategory = previousModal.data(modalCategory),
-      firstModal            = $(currentModalClass + '[data-' + modalCategory + '="' + currentModalCategory + '"]:first'),
-      lastModal             = $(currentModalClass + '[data-' + modalCategory + '="' + currentModalCategory + '"]:last');
+  var navDirection          = $(this).data('nav-direction');
+  var currentModalClass     = '.modal';
+  var modalCategory         = 'modal-group';
+  var currentModal          = $(currentModalClass + '.is-open');
+  var currentModalCategory  = currentModal.data(modalCategory);
+  var nextModal             = currentModal.next(currentModalClass);
+  var nextModalCategory     = nextModal.data(modalCategory);
+  var previousModal         = currentModal.prev(currentModalClass);
+  var previousModalCategory = previousModal.data(modalCategory);
+  var firstModal            = $(currentModalClass + '[data-' + modalCategory + '="' + currentModalCategory + '"]:first');
+  var lastModal             = $(currentModalClass + '[data-' + modalCategory + '="' + currentModalCategory + '"]:last');
 
   function launchNextModal(){
     // hides the current modal
@@ -43,12 +43,12 @@ $('.js-modal-nav').on('click', function(event) {
 
   // checks which button has been clicked and runs function
   switch (navDirection) {
-    case 'next':
-      launchNextModal();
-      break;
-    case 'previous':
-      launchPreviousModal();
-      break;
+  case 'next':
+    launchNextModal();
+    break;
+  case 'previous':
+    launchPreviousModal();
+    break;
   }
 
 });
