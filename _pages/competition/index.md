@@ -2,8 +2,7 @@
 layout: competition
 id: competition
 nav: true
-nav-order: 5
-nav-title: Win
+nav-order: 6
 
 title: Compet&shy;ition
 long-title: Lorem ipsum dolor sit amet consectetur adipisicing elit.
