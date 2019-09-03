@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "start": "gulp"
+    "init": "npm install --no-audit && gulp",
+    "dev": "gulp",
+    "generate": "gulp compile"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.5",
     "del": "^3.0.0",
     "gulp": "^4.0.1",
     "gulp-autoprefixer": "^5.0.0",

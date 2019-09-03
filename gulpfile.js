@@ -1,23 +1,23 @@
-var gulp         = require('gulp');
-var path         = require('path');
-var del          = require('del');
-var cp           = require('child_process');
-var browserSync  = require('browser-sync');
-var sass         = require('gulp-sass');
-var sourcemaps   = require('gulp-sourcemaps');
-var autoprefix   = require('gulp-autoprefixer');
-var cssmin       = require('gulp-cssmin');
-var concat       = require('gulp-concat');
-var uglify       = require('gulp-uglify');
-var image        = require('gulp-image');
-var htmlmin      = require('gulp-htmlmin');
+var gulp = require('gulp');
+var path = require('path');
+var del = require('del');
+var cp = require('child_process');
+var browserSync = require('browser-sync');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
+var autoprefix = require('gulp-autoprefixer');
+var cssmin = require('gulp-cssmin');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+var image = require('gulp-image');
+var htmlmin = require('gulp-htmlmin');
 
 
 /////////////////////////////////////////////////////////////////////  utilities
 
 // starts with fresh asset files - this is a jekyll work around to not use its built in sass engine
 function cleanAssets() {
-  return del(['./_site/_assets/**/*']);
+  return del(["./_site/_assets/**/*"]);
 }
 
 // start browserSync local server and show under site subdirectory
@@ -44,7 +44,9 @@ function browserSyncReload(done) {
 
 // build the jekyll site
 function buildJekyll(done) {
-  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+  return cp.spawn('jekyll', ['build'], {
+      stdio: 'inherit'
+    })
     .on('close', done);
 }
 
@@ -71,40 +73,40 @@ function buildImages() {
 function buildJsMain() {
   return gulp.src([
 
-    //  JS MAIN FILE BUILD
-    // --------------------
+      //  JS MAIN FILE BUILD
+      // --------------------
 
-    // plugins
-    './node_modules/jquery/dist/jquery.min.js',
-    './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
-    // './node_modules/waypoints/lib/jquery.waypoints.min.js',
+      // plugins
+      './node_modules/jquery/dist/jquery.min.js',
+      './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
+      // './node_modules/waypoints/lib/jquery.waypoints.min.js',
 
-    // custom js - with on doc ready wrapper
-    './_assets/js/_components/on-ready/start.js',
+      // custom js - with on doc ready wrapper
+      './_assets/js/_components/on-ready/start.js',
 
-    // map marker data
-    './_assets/js/_components/marker-data/coast.js',
-    './_assets/js/_components/marker-data/country.js',
-    './_assets/js/_components/marker-data/mountain.js',
+      // map marker data
+      './_assets/js/_components/marker-data/coast.js',
+      './_assets/js/_components/marker-data/country.js',
+      './_assets/js/_components/marker-data/mountain.js',
 
-    // components
-    './_assets/js/_components/standard.js',
-    './_assets/js/_components/offer-countdown.js',
-    './_assets/js/_components/modal.js',
-    // './_assets/js/_components/modal-nav.js',
-    // './_assets/js/_components/sticky-nav.js',
-    './_assets/js/_components/map.js',
-    './_assets/js/_components/form/functions.js',
-    './_assets/js/_components/form/validation.js',
-    './_assets/js/_components/competition.js',
+      // components
+      './_assets/js/_components/standard.js',
+      './_assets/js/_components/offer-countdown.js',
+      './_assets/js/_components/modal.js',
+      // './_assets/js/_components/modal-nav.js',
+      // './_assets/js/_components/sticky-nav.js',
+      './_assets/js/_components/map.js',
+      './_assets/js/_components/form/functions.js',
+      './_assets/js/_components/form/validation.js',
+      './_assets/js/_components/competition.js',
 
-    // custom js for project
-    './_assets/js/main.js',
+      // custom js for project
+      './_assets/js/main.js',
 
-    './_assets/js/_components/on-ready/end.js'
-    // end custom js
+      './_assets/js/_components/on-ready/end.js'
+      // end custom js
 
-  ])
+    ])
     .pipe(concat('main.js'))
     .pipe(gulp.dest('./_site/_assets/js/'))
     .pipe(browserSync.reload({
@@ -114,7 +116,7 @@ function buildJsMain() {
 
 // build for other js files - excludes main and files in sub folders
 function buildJs() {
-  return gulp.src(['./_assets/js/*.js','!./_assets/js/main.js'])
+  return gulp.src(['./_assets/js/*.js', '!./_assets/js/main.js'])
     .pipe(gulp.dest('./_site/_assets/js/'))
     .pipe(browserSync.reload({
       stream: true
