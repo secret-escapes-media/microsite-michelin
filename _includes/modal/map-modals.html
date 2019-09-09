@@ -10,6 +10,8 @@
       <h4 class="title vpad--xxs">
         {% if restaurant.rating == "one-star" %}
           One MICHELIN Star
+        {% elsif restaurant.rating == "two-star" %}
+          Two MICHELIN Stars
         {% elsif restaurant.rating == "plate" %}
           The MICHELIN Plate
         {% endif %}
