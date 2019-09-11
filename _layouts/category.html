@@ -11,10 +11,11 @@ map: true
       <p><strong>Time:</strong> {{page.roadtrip.time}} | <strong>Distance:</strong> {{page.roadtrip.distance}} miles</p>
     </div>
   </div>
-  <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/map.png');">
-    <a class="js-open-map harvey__link" data-map-data="{{page.id}}"></a>
-    <div class="harvey__btn-wrap">
-      <a class="btn btn--blue">Explore the Map</a>
+  <div class="harvey__img">
+    <div class="map-link">
+      <div class="map-link__bg-img" style="background-image: url('{{site.img}}/content/{{page.id}}/map.png');"></div>
+      <a href="#open-map" class="js-open-map map-link__bg" data-map-data="{{page.id}}"></a>
+      <a class="js-open-map map-link__btn btn btn--blue"  data-map-data="{{page.id}}">Explore the Map</a>
     </div>
   </div>
 </div>

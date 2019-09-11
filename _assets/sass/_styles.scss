@@ -38,3 +38,42 @@
   @include bp($lg){ font-size: $s0; letter-spacing: .5rem; }
   @include bp($xl){ font-size: $s1; }
 }
+
+// special map thumbnail link on category pages
+.map-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  &__bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    @include transition;
+    @include background-attributes;
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    background-color: rgba($m-darkblue,.15);
+    @include transition;
+  }
+  &__btn { z-index: $z-overlay; }
+  // mouse hover over style
+  .no-touch &:hover &__bg-img { transform: scale(1.05); }
+  .no-touch &:hover &__bg { background-color: rgba($m-darkblue,.25); }
+  .no-touch &:hover &__btn { transform: scale(1.15); }
+}
