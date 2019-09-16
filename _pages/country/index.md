@@ -10,8 +10,8 @@ intro: Honey-hued villages and gently rolling hills make for an irresistibly cha
 roadtrip:
   start: Castle Combe
   end: Chipping Campden
-  time: "999 hours"
-  distance: "9999"
+  time: 3 hours
+  distance: 92
 
 restaurants:
   - id: the-dining-room-whatley-manor
@@ -69,7 +69,7 @@ restaurants:
 
 <div class="width width--lg text--lg">
   <p>Bourton-on-the-water is another icon of the area. Having stuck to the often single-track, hedge-rowed lanes that are so emblematic of English countryside drives, Bourton offers welcome respite. The small village sits on a stream that is the focal point of the place, with the familiar crooked stone cottages, long greens and car-free walkways mirrored on either side of the water. Small, often medieval footbridges cross the stream, lending to the moniker little Venice. It’s an unfair comparison; Bourton-on-the-water has a rather unique character all of its own, filled with tea shops, pubs and craft shops perfect for whiling away the afternoon. If you haven’t had enough motoring yet, check out the Motor Museum, filled with curios and vintage cool.</p>
-  <p>A little further north lie the two Slaughters, Upper and Lower. They too are typical of the area, another pair of perfectly-preserved Cotswold villages. Don’t miss Lords of the Manor, a famed Michelin-star restaurant that promises stupendously good fare. The road northwest cuts through rolling hills, carving through the picturesque fields. It may not be a mountain pass, but there’s a certain laidback charm to this kind of driving. Leave the B407 and follow signs to Winchcombe. The village is worth a stop, with farm shops and delis ready to resupply your trip with divine local flavours. Just outside the village, you’ll find Sudeley Castle.</p>
+  <p>A little further north lie the two Slaughters, Upper and Lower. They too are typical of the area, another pair of perfectly-preserved Cotswold villages. The road northwest cuts through rolling hills, carving through the picturesque fields. It may not be a mountain pass, but there’s a certain laidback charm to this kind of driving. Leave the B407 and follow signs to Winchcombe. The village is worth a stop, with farm shops and delis ready to resupply your trip with divine local flavours. Just outside the village, you’ll find Sudeley Castle.</p>
 </div>
 
 <div class="width width--xxl vpad--lg">

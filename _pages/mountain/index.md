@@ -10,8 +10,8 @@ intro: This uniquely wild landscape has long proved an irresistible draw to trav
 roadtrip:
   start: Lowther Castle
   end: Cartmel
-  time: "999 hours"
-  distance: "9999"
+  time: 5 hrs
+  distance: 126
 
 restaurants:
   - id: l-enclume
@@ -19,11 +19,11 @@ restaurants:
     rating: two-star
     description: A Cumbrian classic with no less than two Michelin stars. No small feat, but the food really speaks for itself. Chef Rogan goes as far as to grow a lot of his own ingredients, served up in a stylish industrial-minimalist setting.
     link: https://www.lenclume.co.uk/
-  - id: forest-side-hotel
-    title: Forest Side Hotel
-    rating: one-star
-    description: Local, seasonal Cumbrian produce is prepared with flare by chef Kevin Tickle, in a charming setting. The menu is inspired by the local landscape, so alight for authentic Cumbrian eats.
-    link: https://www.theforestside.com/restaurant/
+  - id: drunken-duck-inn-ambleside
+    title: Drunken Duck Inn, Ambleside
+    rating: plate
+    description: Dishes show influence from around the world, put together with contemporary flair. Better still, the pub is a true idyll, boasting incredible views over the fells.
+    link: https://drunkenduckinn.co.uk/
   - id: hrishi
     title: HRiSHi
     rating: one-star

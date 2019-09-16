@@ -18,11 +18,11 @@ var mountain = {
       {
         type: "Feature",
         properties: {
-          id: "forest-side-hotel"
+          id: "drunken-duck-inn-ambleside"
         },
         geometry: {
           type: "Point",
-          coordinates: [-3.015746, 54.463817]
+          coordinates: [-3.001786, 54.402840]
         }
       },
       {

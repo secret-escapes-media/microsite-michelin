@@ -8,10 +8,10 @@ content-pages: true
 intro: Here start the five peninsulas of southern Ireland. From Dingle down to Mizen, each offers remote and romantic escape, where beguiling panorama distracts you from a burgeoning local foodie scene, ancient history and quaint village life.
 
 roadtrip:
-  start: Dingle Peninsula
+  start: Tralee
   end: Mizen&nbsp;Head
-  time: "999 hours"
-  distance: "9999"
+  time: 10 hours
+  distance: 305
 
 restaurants:
   - id: chestnut
