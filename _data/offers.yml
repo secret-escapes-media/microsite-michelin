@@ -1,43 +1,59 @@
-- title: Knockderry House
-  id: knockderry-house
-  location: Argyll & Bute, Scotland
-  description: An imposing historic country house on the banks of Loch Long
-  price: 79
-  price-description: per room per night
-  saved: 64
-  expires: 2019/01/15
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/77187/0dc95b0b_f720_43c1_beb2_dfb7e5fc493f.jpg
-  link: https://www.secretescapes.com/knockderry-house-argyll-and-bute-scotland/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
-
-- title: Hallmark Hotel Derby Mickleover Court
-  id: hallmark-hotel-derby-mickleover-court
-  location: Derby, Derbyshire
-  description: A polished Peak District base just outside Derby
-  price: 90
-  price-description: per room per night
+- title: Whitbarrow Hotel
+  location: Penrith, Lake District
+  description: Idyllic Lake District suite stay
+  price: 89
+  price-description: per suite per night
   saved: 52
-  expires: 2019/01/15
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/61018/3eef8636_934f_4864_b6ea_313c70595d65.jpg
-  link: https://www.secretescapes.com/hallmark-hotel-derby-mickleover-court-derby-derbyshire-1/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+  expires: 2019/09/24
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/99108/afc8db70_fe24_4b1c_a2e2_8af3dfd783d7.jpg?auto=format,compress
+  link: https://www.secretescapes.com/whitbarrow-hotel-penrith-lake-district/sale
 
-- title: The Cavendish
-  id: the-cavendish
-  location: Bakewell, Derbyshire
-  description: A luxe country-house hotel in the Peak District
-  price: 226
+- title: Laura Ashley Hotel - The Belsfield
+  location: Bowness-on-Windermere, Lake District
+  description: Chic Laura Ashley-designed Lake District stay
+  price: 139
   price-description: per room per night
-  saved: 38
-  expires: 2019/01/22
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86165/eff62519_3313_4807_9223_423c1a38ce55.jpg
-  link: https://www.secretescapes.com/the-cavendish-bakewell-derbyshire/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+  saved: 46
+  expires: 2019/10/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/61967/4c6e4ed1_9c02_4bde_9335_5fdcf13658f1.jpg?auto=format,compress
+  link: https://www.secretescapes.com/laura-ashley-hotel-the-belsfield-bowness-on-windermere-lake-district/sale
 
-- title: New Bath Hotel & Spa
-  id: new-bath-hotel-and-spa
-  location: Peak District, Derbyshire
-  description: A Peak District stay with an ESPA spa and gourmet dining
-  price: 99
+- title: The Burnside Hotel & Spa
+  location: Bowness-on-Windermere, Lake District National Park
+  description: A luxe Lake District stay with optional hot tub
+  price: 149
+  price-description: per room per night
+  saved: 50
+  expires: 2019/10/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101381/7d9ffcd3_2580_4a63_9945_bfa99c3b78c0.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-burnside-hotel-and-spa-bowness-on-windermere-lake-district-national-park/sale
+
+- title: Redesdale Arms
+  location: Moreton-in-Marsh, Cotswolds
+  description: Quaint Cotswolds inn with award-winning restaurant
+  price: 69
   price-description: per room per night
   saved: 54
-  expires: 2019/01/22
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74513/7dd2f412_5bd9_4f11_9de9_1bb7390d255c.jpg
-  link: https://www.secretescapes.com/new-bath-hotel-and-spa-peak-district-derbyshire/sale?utm_source=SE_media&utm_medium=Michelin&utm_campaign=November2018
+  expires: 2019/10/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/100600/4298465e_df0e_409a_9e9f_9d1f56fde90d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/redesdale-arms-moreton-in-marsh-cotswolds-uk/sale
+
+- title: Macdonald Bear Hotel
+  location: Woodstock, Cotswolds
+  description: Former 13th-century coaching inn in the picturesque Cotswolds
+  price: 89
+  price-description: per room per night
+  saved: 44
+  expires: 2019/09/24
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/86371/603b00e1_e08b_4d8c_be9f_a690f6b865f5.jpg?auto=format,compress
+  link: https://www.secretescapes.com/macdonald-bear-hotel-woodstock-cotswolds/sale
+
+- title: Sheen Falls Lodge
+  location: County Kerry, Ireland
+  description: Five-star luxury on the fringes of Ireland's Kenmare
+  price: 135
+  price-description: per room per night
+  saved: 36
+  expires: 2019/10/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/91073/1f1ffa6a_c1ca_4a23_ab7a_6c8edc0a5d01.jpg?auto=format,compress
+  link: https://www.secretescapes.com/sheen-falls-lodge-county-kerry-ireland/sale
