@@ -60,11 +60,11 @@ restaurants:
 <div class="width width--xxl vpad--lg">
   <div class="row row--6-6 row--gutters-sm">
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/keswick.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/keswick.jpg');"></div>
       <div class="caption">Keswick</div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/castlerigg-stone-circle.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/castlerigg-stone-circle.jpg');"></div>
       <div class="caption">Castlerigg Stone Circle</div>
     </div>
   </div>
@@ -99,11 +99,11 @@ restaurants:
 <div class="width width--xxl vpad--lg">
   <div class="row row--6-6 row--gutters-sm">
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/hardknott-pass.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/hardknott-pass.jpg');"></div>
       <div class="caption">Hardknott Pass</div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/hardknott-roman-fort.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/hardknott-roman-fort.jpg');"></div>
       <div class="caption">Hardknott Roman Fort</div>
     </div>
   </div>
@@ -120,11 +120,11 @@ restaurants:
 <div class="width width--xxl vpad--lg">
   <div class="row row--6-6 row--gutters-sm">
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/lake-windermere.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/lake-windermere.jpg');"></div>
       <div class="caption">Lake Windermere</div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/cartmel.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/cartmel.jpg');"></div>
       <div class="caption">Cartmel</div>
     </div>
   </div>

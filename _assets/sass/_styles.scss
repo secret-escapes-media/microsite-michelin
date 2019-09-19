@@ -77,3 +77,23 @@
   .no-touch &:hover &__bg { background-color: rgba($m-darkblue,.25); }
   .no-touch &:hover &__btn { transform: scale(1.15); }
 }
+
+// banner background images
+.overview .banner__bg {
+  background-image: url('../img/content/overview/bg-mobile.jpg');
+  @include bp($xxl) { background-image: url('../img/content/overview/bg.jpg'); }
+}
+.mountain .banner__bg {
+  background-image: url('../img/content/mountain/bg-mobile.jpg');
+  @include bp($xxl) { background-image: url('../img/content/mountain/bg.jpg'); }
+}
+.country .banner__bg {
+  background-image: url('../img/content/country/bg-mobile.jpg');
+  @include bp($xxl) { background-image: url('../img/content/country/bg.jpg'); }
+}
+.coast .banner__bg {
+  background-image: url('../img/content/coast/bg-mobile.jpg');
+  @include bp($xxl) { background-image: url('../img/content/coast/bg.jpg'); }
+}
+.michelin .banner__bg { background-image: url('../img/content/michelin/bg.jpg'); }
+.offers .banner__bg { background-image: url('../img/content/offers/bg.jpg'); }
