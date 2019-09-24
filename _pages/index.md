@@ -8,6 +8,7 @@ title: Overview
 banner:
   title-sup: Unforget&shy;table
   title: Road Trips
+  mobile-bg-img: true
 ---
 
 <div class="vpad--xxl">

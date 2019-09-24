@@ -39,11 +39,11 @@ restaurants:
 <div class="width width--xxl vpad--lg">
   <div class="row row--6-6 row--gutters-sm">
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/castle-combe.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/castle-combe.jpg');"></div>
       <div class="caption">Castle Combe</div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/stroud.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/stroud.jpg');"></div>
       <div class="caption">Stroud</div>
     </div>
   </div>
@@ -57,11 +57,11 @@ restaurants:
 <div class="width width--xxl vpad--lg">
   <div class="row row--6-6 row--gutters-sm">
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/cirencester.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/cirencester.jpg');"></div>
       <div class="caption">Cirencester</div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/bibury-arlington-row.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/bibury-arlington-row.jpg');"></div>
       <div class="caption">Bibury - Arlington Row</div>
     </div>
   </div>
@@ -97,11 +97,11 @@ restaurants:
 <div class="width width--xxl vpad--lg">
   <div class="row row--6-6 row--gutters-sm">
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/broadway-tower.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/broadway-tower.jpg');"></div>
       <div class="caption">Broadway Tower</div>
     </div>
     <div class="col">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/chipping-campden.jpg');"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/locations/chipping-campden.jpg');"></div>
       <div class="caption">Chipping Campden</div>
     </div>
   </div>

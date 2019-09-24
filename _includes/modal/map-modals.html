@@ -2,7 +2,7 @@
 {% for restaurant in page.restaurants %}
   <div class="modal modal--restaurant is-closed" data-modal-id="{{restaurant.id}}">
     <div class="js-close-modal modal__close"></div>
-    <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/restaurants/{{restaurant.id}}.jpg');">
+    <div class="bg-img bg-img--4-3 bg-img--md-3-2 bg-img--lg-16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/restaurants/{{restaurant.id}}.jpg');">
       <a id="track-map-restaurant-img-{{restaurant.id}}" href="{{restaurant.link}}" class="bg-img__link"></a>
     </div>
     <div class="modal__content">

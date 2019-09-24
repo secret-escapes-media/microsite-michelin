@@ -8,7 +8,7 @@ description: >
   Weather-beaten coastlines, wild mountain landscapes and unspoilt countryside await in our road-trip guides, ready to test your motoring skills. Twists, turns, hairpins and breathtaking panorama awaits, interspersed with remarkable stop-offs made for unmissable moments.
 
 # file paths
-url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+url:     "https://mp.secretescapes.com" # the base hostname & protocol for your site
 baseurl: "/unforgettable-road-trips" # the subpath of your site, e.g. /blog/
 img:     "/unforgettable-road-trips/_assets/img"
 css:     "/unforgettable-road-trips/_assets/css"
