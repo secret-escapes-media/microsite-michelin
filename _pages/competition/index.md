@@ -6,7 +6,7 @@ nav-order: 6
 
 title: Compet&shy;ition
 long-title: Win a luxury road-trip stay in the delightful Cotswolds
-intro: Discover the pretty country lanes and gorgeous honey-hued villages of the Cotswolds, as you embark on a luxury road trip in quintessential English countryside. Your stay includes two nights at the gorgeous Whatley Manor – in one of their sumptuous suites, no less. What’s more, you’ll be treated to a MICHELIN-starred 12-course experience menu with accompanying wine flight. Delicious. In the day, explore the picturesque villages nearby, or sink into the hotel’s spa which you full access to for the duration of your stay.
+intro: Discover the pretty country lanes and gorgeous honey-hued villages of the Cotswolds, as you embark on a luxury road trip in quintessential English countryside. Your stay includes two nights at the gorgeous Whatley Manor – in one of their sumptuous suites, no less. What’s more, you’ll be treated to a MICHELIN-starred 12-course experience menu with accompanying wine flight. Delicious. In the day, explore the picturesque villages nearby, or sink into the hotel’s spa which you have full access to for the duration of your stay.
 intro-extra: We sent Samantha from Secret Escapes to check out the experience, so for a teaser of what you could win, keep reading!
 enter-cta: Enter Now
 

@@ -5,7 +5,7 @@ title: Michelin
 nav: true
 nav-order: 5
 content-pages: true
-intro: Michelin has been helping and inspiring motorists with their travels for over a century through its class-leading tyres and travel guides. Browse below to select the right tyres for your car and find out how to look after them correctly. Don’t miss the online ViaMichelin route planner which will highlight hotel and restaurant recommendations from the prestigious MICHELIN Guide. Why not treat yourself to lunch or dinner at a MICHELIN-Starred restaurant along the way...
+intro: Michelin has been helping and inspiring motorists with their travels for over a century through its class-leading tyres and travel guides. Browse below to select the right tyres for your car and find out how to look after them correctly. Don’t miss the online ViaMichelin route planner which will highlight hotel and restaurant recommendations from the prestigious MICHELIN Guide. Why not treat yourself to lunch or dinner at a MICHELIN-Starred restaurant along&nbsp;the&nbsp;way...
 
 topics:
 
@@ -25,7 +25,7 @@ topics:
     title: MICHELIN STARS & The MICHELIN Guide
     description: The MICHELIN-Starred restaurant rating is an iconic, international benchmark for gastronomy. However, not many people realise it was developed as part of a motorist handbook; Michelin maps and travel guides were a clever marketing idea introduced by the Michelin Tyre Company in the 1900s to encourage motorists to travel further afield and boost tyre sales. The publications have kept in tune with traveller’s needs and evolved through the digital revolution so they can still be accessed online today. Michelin’s online route-planner ‘ViaMichelin’ can help you plan your road trip and will highlight tourist spots and hotel and restaurant recommendations from the MICHELIN Guide – including unmissable MICHELIN-Starred restaurants.
     cta: Plan Your Journey
-    link: https://www.viamichelin.co.uk/web/Restaurants/Restaurants-United_Kingdom
+    link: https://www.viamichelin.co.uk/
 
   - id: heritage
     title: The heritage
