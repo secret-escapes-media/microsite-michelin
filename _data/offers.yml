@@ -1,52 +1,102 @@
-- title: Whitbarrow Hotel
-  location: Penrith, Lake District
-  description: Idyllic Lake District suite stay
-  price: 89
-  price-description: per suite per night
-  saved: 52
-  expires: 2019/09/24
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/99108/afc8db70_fe24_4b1c_a2e2_8af3dfd783d7.jpg?auto=format,compress
-  link: https://www.secretescapes.com/whitbarrow-hotel-penrith-lake-district/sale
-
-- title: Laura Ashley Hotel - The Belsfield
-  location: Bowness-on-Windermere, Lake District
-  description: Chic Laura Ashley-designed Lake District stay
-  price: 139
+- title: Grange Hotel
+  location: Grange-over-Sands, Lake District
+  description: Country manor on the edge of the Lake District
+  price: 160
   price-description: per room per night
-  saved: 46
-  expires: 2019/10/01
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/61967/4c6e4ed1_9c02_4bde_9335_5fdcf13658f1.jpg?auto=format,compress
-  link: https://www.secretescapes.com/laura-ashley-hotel-the-belsfield-bowness-on-windermere-lake-district/sale
+  saved: 32
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102192/1b2ecebb_401e_433a_9df9_96c8d2458acf.jpg?auto=format,compress
+  link: https://www.secretescapes.com/grange-hotel-and-lodges-grange-over-sands-lake-district/sale
 
-- title: The Burnside Hotel & Spa
-  location: Bowness-on-Windermere, Lake District National Park
-  description: A luxe Lake District stay with optional hot tub
+- title: Macdonald Leeming House
+  location: Ullswater, Lake District
+  description: 19th-century Lake District hideaway with AA Rosette dining
+  price: 119
+  price-description: per room per night
+  saved: 32
+  expires: 2019/10/15
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/1546/4c73b6b5_8c58_48cf_9829_0d16b189ad77.jpg?auto=format,compress
+  link: https://www.secretescapes.com/macdonald-leeming-house-ullswater-lake-district/sale
+
+- title: Langdale Chase
+  location: Windermere, Lake District
+  description: A fairytale-like Victorian mansion on the shore of Lake Windermere
   price: 149
   price-description: per room per night
-  saved: 50
-  expires: 2019/10/01
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101381/7d9ffcd3_2580_4a63_9945_bfa99c3b78c0.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-burnside-hotel-and-spa-bowness-on-windermere-lake-district-national-park/sale
-
-- title: Redesdale Arms
-  location: Moreton-in-Marsh, Cotswolds
-  description: Quaint Cotswolds inn with award-winning restaurant
-  price: 69
-  price-description: per room per night
-  saved: 54
-  expires: 2019/10/01
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/100600/4298465e_df0e_409a_9e9f_9d1f56fde90d.jpg?auto=format,compress
-  link: https://www.secretescapes.com/redesdale-arms-moreton-in-marsh-cotswolds-uk/sale
-
-- title: Macdonald Bear Hotel
-  location: Woodstock, Cotswolds
-  description: Former 13th-century coaching inn in the picturesque Cotswolds
-  price: 89
-  price-description: per room per night
   saved: 44
-  expires: 2019/09/24
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/86371/603b00e1_e08b_4d8c_be9f_a690f6b865f5.jpg?auto=format,compress
-  link: https://www.secretescapes.com/macdonald-bear-hotel-woodstock-cotswolds/sale
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/77201/c54cf5ee_23ef_4db6_b838_ed58e7dce8f5.jpg?auto=format,compress
+  link: https://www.secretescapes.com/langdale-chase-windermere-lake-district/sale
+
+- title: Low Wood Bay Resort & Spa
+  location: Lake Windermere, Lake District
+  description: Peaceful Lake District stay by Lake Windermere
+  price: 139
+  price-description: per room per night
+  saved: 40
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/77417/5b6e86c5_420e_41aa_a5c1_b3be95381441.jpg?auto=format,compress
+  link: https://www.secretescapes.com/low-wood-bay-resort-and-spa-lake-windermere-lake-district/sale
+
+- title: North Lakes Hotel & Spa
+  location: Penrith, Lake District
+  description: Modern Penrith spa base near the Lake District
+  price: 99
+  price-description: per room per night
+  saved: 35
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/78744/94050ed5_e322_4644_8f64_26538337b07e.jpg?auto=format,compress
+  link: https://www.secretescapes.com/north-lakes-hotel-and-spa-penrith-lake-district/sale
+
+- title: The Skiddaw Hotel
+  location: Keswick, Lake District
+  description: A historic stay in the Lake District's market town of Keswick
+  price: 129
+  price-description: per room per night
+  saved: 30
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/66613/3b0d98be_bc8c_44e1_a87a_946719889109.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-skiddaw-hotel-keswick-lake-district/sale
+
+- title: Cotswold House Hotel & Spa
+  location: Chipping Camden, Cotswolds
+  description: Cotswolds hideaway with awarded spa and dining
+  price: 119
+  price-description: per room per night
+  saved: 27
+  expires: 2019/10/15
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/37100/0e819f65_d374_4060_9bba_ba309733074a.jpg?auto=format,compress
+  link: https://www.secretescapes.com/cotswold-house-hotel-and-spa-chipping-camden-cotswolds/sale
+
+- title: The New Inn
+  location: Coln St Aldwyns, Cotswolds
+  description: Idyllic stay at a charming 16th-century Cotswolds hotel
+  price: 105
+  price-description: per room per night
+  saved: 31
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/48648/2d24fdfd_e24a_4196_bcfd_1a381585de34.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-new-inn-coln-st-aldwyns-cotswolds/sale
+
+- title: Kings Head Hotel
+  location: Cirencester, Cotswolds
+  description: High-end Cotswolds hotel with underground spa
+  price: 149
+  price-description: per suite per night
+  saved: 35
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/58062/f2348577_ab73_4782_977d_738d8408ce0d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/kings-head-hotel-cirencester-cotswolds/sale
+
+- title: De Vere Tortworth Court
+  location: Wotton-under-Edge, Cotswolds
+  description: Tudor-style mansion in the pretty Cotswolds
+  price: 139
+  price-description: per room per night
+  saved: 34
+  expires: 2019/10/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/50544/7a86dfbf_a0f6_4368_9dac_d7eb8c72ecd7.jpg?auto=format,compress
+  link: https://www.secretescapes.com/de-vere-tortworth-court-wotton-under-edge-cotswolds/sale
 
 - title: Sheen Falls Lodge
   location: County Kerry, Ireland
@@ -54,6 +104,6 @@
   price: 135
   price-description: per room per night
   saved: 36
-  expires: 2019/10/01
+  expires: 2019/10/15
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/91073/1f1ffa6a_c1ca_4a23_ab7a_6c8edc0a5d01.jpg?auto=format,compress
   link: https://www.secretescapes.com/sheen-falls-lodge-county-kerry-ireland/sale
