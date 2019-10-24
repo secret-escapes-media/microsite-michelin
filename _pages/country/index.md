@@ -16,7 +16,7 @@ roadtrip:
 restaurants:
   - id: the-dining-room-whatley-manor
     title: The Dining Room, Whatley Manor
-    rating: one-star
+    rating: two-star
     description: An intimate dining room features a modesty that puts emphasis on a rather tempting menu. There’s a playfulness to the offerings, with chefs occasionally taking the time to personally talk you through their creations.
     link: https://www.whatleymanor.com/eat-drink/the-dining-room/
   - id: the-bybrook
