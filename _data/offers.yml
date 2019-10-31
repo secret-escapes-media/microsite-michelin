@@ -1,30 +1,10 @@
-- title: Low Wood Bay Resort & Spa
-  location: Lake Windermere, Lake District
-  description: Peaceful Lake District stay by Lake Windermere
-  price: 142
-  price-description: per room per night
-  saved: 38
-  expires: 2019/10/27
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102779/1319a246_b814_4f72_8017_61d8a3c95b88.jpg?auto=format,compress
-  link: https://www.secretescapes.com/low-wood-bay-resort-and-spa-lake-windermere-lake-district/sale
-
-- title: Beech Hill Hotel & Spa
-  location: Windermere, Lake District
-  description: Lake Windermere spa hotel right on the water
-  price: 111
-  price-description: per room per night
-  saved: 37
-  expires: 2019/10/29
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/103125/053ff596_6513_4cba_88ea_f1bb91f66e3b.jpg?auto=format,compress
-  link: https://www.secretescapes.com/beech-hill-hotel-and-spa-windermere-lake-district/sale
-
 - title: The Wordsworth Hotel & Spa
   location: Grasmere, Lake District
   description: Award-winning dining in the Lake District
   price: 183
   price-description: per room per night
   saved: 48
-  expires: 2019/11/05
+  expires: 2019/11/12
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/38451/f9927f4a_9fb4_4382_9e22_22966366e33e.jpg?auto=format,compress
   link: https://www.secretescapes.com/the-wordsworth-hotel-and-spa-grasmere-lake-district/sale
 
@@ -74,19 +54,9 @@
   price: 142
   price-description: per room per night
   saved: 45
-  expires: 2019/11/05
+  expires: 2019/11/12
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/101398/4315370c_f2a1_42e4_88f1_931df0422593.jpg?auto=format,compress
   link: https://www.secretescapes.com/de-vere-cotswold-water-park-near-cirencester-cotswolds/sale
-
-- title: Lords of the Manor
-  location: Cotswolds, Cheltenham
-  description: Award-winning dining in the Cotswolds
-  price: 244
-  price-description: per room per night
-  saved: 28
-  expires: 2019/10/29
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/38247/bd057871_d93f_465e_adce_916c5b8c26f4.jpg?auto=format,compress
-  link: https://www.secretescapes.com/lords-of-the-manor-cotsworlds-cheltenham/sale
 
 - title: The Castle Inn
   location: Castle Combe, Cotswolds
@@ -98,26 +68,6 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/79186/51c6ce37_9c08_4e77_81ae_094bb1a90ed1.jpg?auto=format,compress
   link: https://www.secretescapes.com/the-castle-inn-castle-combe-cotswolds/sale
 
-- title: Cheltenham Queens MGallery Collection
-  location: Cheltenham, Cotswolds
-  description: Historic Cheltenham stay near the Cotswolds
-  price: 101
-  price-description: per room per night
-  saved: 35
-  expires: 2019/10/29
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/60849/6f67b20f_3b5a_4b9c_a494_b507b569a192.jpg?auto=format,compress
-  link: https://www.secretescapes.com/cheltenham-queens-mgallery-collection-cheltenham-cotswolds/sale
-
-- title: The Bull Hotel
-  location: Fairford, Cotswolds
-  description: Gloucestershire stay at a Grade II listed coaching inn
-  price: 132
-  price-description: per room per night
-  saved: 31
-  expires: 2019/11/05
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/61678/07d54efc_7ec3_4090_bf05_f2e59178ccb9.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-bull-hotel-fairford-cotswolds/sale
-
 - title: Charingworth Manor
   location: Chipping Campden, Cotswolds
   description: A lovely 700-year-old Cotswolds manor house stay
@@ -127,3 +77,23 @@
   expires: 2019/11/05
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/69407/9be70596_e0da_4ec9_9273_0ad9d476bc9c.jpg?auto=format,compress
   link: https://www.secretescapes.com/charingworth-manor-chipping-campden-cotswolds/sale
+
+- title: The Old Stocks Inn
+  location: Stow-on-the-Wold, Cotswolds
+  description: Boutique 17th-century Cotswolds inn
+  price: 110
+  price-description: per room per night
+  saved: 42
+  expires: 2019/11/12
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/16475/c6301939_d1c6_4e86_b311_606602d2b608.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-old-stocks-inn-stow-on-the-wold-cotswolds/sale
+
+- title: Macdonald Bear Hotel
+  location: Woodstock, Cotswolds
+  description: Former 13th-century coaching inn in the picturesque Cotswolds
+  price: 89
+  price-description: per room per night
+  saved: 40
+  expires: 2019/11/12
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/44773/0a975c55_501a_428f_b6d9_030dbad565cf.jpg?auto=format,compress
+  link: https://www.secretescapes.com/macdonald-bear-hotel-woodstock-cotswolds/sale
